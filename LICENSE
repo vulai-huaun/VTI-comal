@@ -1,0 +1,13 @@
+LICENSE
+本工具仅适用于合法授权的企业安全建设行为，使用本工具进行检测时，您应确保该行为符合当地的法律法规，并且已经取得了足够的授权，如您需要测试本工具的可用性，请自行搭建靶机环境。
+禁止逆向工程、反编译: 不得对本工具进行逆向工程、试图破译源代码、修改、反编译、反汇编等行为。
+如果我们发现您违反上述规定，我们将保留采取法律措施的权利。
+如您在使用本工具的过程中存在任何非法行为，您需自行承担相应后果，我们将不承担任何法律及连带责任。
+除非您已经充分阅读、完全理解并同意本协议的所有条款，否则请不要安装和使用本工具。您的使用行为或者您以其他任何明示或者默示方式表示接受本协议的，均视为您已阅读并同意本协议。
+
+
+This tool is only applicable for lawful and authorized enterprise security construction behavior. When using this tool for detection, you should ensure that the activity is in compliance with local laws and regulations, and that you have obtained adequate authorization. If you need to test the usability of this tool, please set up a target machine environment by yourself.
+It is prohibited to engage in reverse engineering, decompilation: no actions such as reverse engineering, attempting to decipher the source code, modifying, decompiling, disassembling this tool, etc., are permitted.
+If we discover that you have violated the above regulations, we reserve the right to take legal action.
+If any illegal behavior arises in the course of your use of this tool, you must bear the consequences yourself, and we will not accept any legal or joint liability.
+Please do not install or use this tool unless you have fully read, completely understood, and agreed to all terms of this agreement. If you use it, or in any explicit or implicit way show your acceptance of this agreement, it will be considered that you have read and agreed to this agreement.
