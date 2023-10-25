@@ -86,14 +86,15 @@ X-Powered-By: PHP/7.3.4
 2. 在 https://vti.huaun.com/sumbitVul 处进行poc提交，更详细的poc编写指南，请参考https://vti.huaun.com/html/poc%20%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97%20v1.0.pdf
 3. 编写过程中，您可以下载相关的burp插件来辅助您进行编写，下载地址为：https://vti.huaun.com/html/comalExt.jar
 4. 相关提交要求，请参考【漏洞提交页面】的【提交要求】
-5. 详细PoC的定价标准，请参考：https://vti.huaun.com/html/%E5%AE%9A%E4%BB%B7%E6%A0%87%E5%87%86.docx
+5. 详细PoC的定价标准，请参考：https://i8bbmkcybg.feishu.cn/docx/PP64deK2rowtluxyTLqcCGiDnuc?from=from_copylink
 6. 请您提交的时候，准备好相关docker文件或者软件压缩包，并提供好相关运行成功的截图，这将影响到您最终的漏洞奖金。
+7. 【重要】目前只收集【漏洞信息】中发布的漏洞， https://vti-uat.huaun.com/Vulinfo 。其余提交均会驳回，请提交的时候注意。
 
 ## 奖励
 
-本平台实行积分兑换制，1漏洞积分 = 10rmb
+本平台实行积分兑换制，1漏洞积分 = 价值 10rmb 的京东卡
 
-兑换方式为：京东卡，面值为50 与 100。提交兑换申请之后，本月15日之前的，15日发放，15日之后的，次月15日发放。其他问题请联系相关人员。
+面值为50 与 100。提交兑换申请之后，本月15日之前的，15日发放，15日之后的，次月15日发放。其他问题请联系相关人员。
 
 ## 交流
 
