@@ -88,7 +88,7 @@ X-Powered-By: PHP/7.3.4
 4. 相关提交要求，请参考【漏洞提交页面】的【提交要求】
 5. 详细PoC的定价标准，请参考：https://i8bbmkcybg.feishu.cn/docx/PP64deK2rowtluxyTLqcCGiDnuc?from=from_copylink
 6. 请您提交的时候，准备好相关docker文件或者软件压缩包，并提供好相关运行成功的截图，这将影响到您最终的漏洞奖金。
-7. 【重要】目前只收集【漏洞信息】中发布的漏洞， https://vti.huaun.com/Vulinfo 。其余提交均会驳回，请提交的时候注意。
+7. 【重要】目前 Nday只收集【漏洞信息】中发布的漏洞， https://vti.huaun.com/Vulinfo 。其余提交均会驳回，请提交的时候注意。 未公开细节的 1day 和 0day 不限于此规则。 
 
 ## 奖励
 
