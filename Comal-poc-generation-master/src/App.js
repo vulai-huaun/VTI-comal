@@ -60,101 +60,6 @@ export default class App extends React.Component {
     }
   }
 
-  // generatePOC() {
-  //   let data = {
-  //     name: this.state.name,
-  //     transport: this.state.transport,
-  //     rules: clone(this.state.rules),
-  //   };
-
-  //   for (let rule of data.rules) {
-  //     delete rule['index'];
-
-  //     let headers = {};
-  //     for (let header of rule.headers) {
-  //       if (header['key']) {
-  //         headers[header['key']] = header['value'];
-  //       }
-  //     }
-
-  //     if (Object.keys(headers).length > 0) {
-  //       rule.headers = headers;
-  //     } else {
-  //       delete rule.headers;
-  //     }
-
-  //     if (!rule.body.length) {
-  //       delete rule.body;
-  //     }
-
-  //     if (!rule.path.length) {
-  //       delete rule.path;
-  //     }
-
-  //     if (!rule.search.length) {
-  //       delete rule.search;
-  //     }
-
-  //     rule.expression = `${rule.expression}\n`
-  //   }
-
-  //   const poc = yaml.safeDump(data);
-  //   this.setState({poc});
-  // }
-  // generatePOC() {
-  //   let data = {
-  //     name: this.state.name,
-  //     transport: this.state.transport,
-  //     rules: clone(this.state.rules),
-  //   };
-
-  //   for (let rule of data.rules) {
-  //     delete rule['index'];
-
-  //     let headers = {};
-  //     for (let header of rule.headers) {
-  //       if (header['key']) {
-  //         headers[header['key']] = header['value'];
-  //       }
-  //     }
-
-  //     if (Object.keys(headers).length > 0) {
-  //       rule.headers = headers;
-  //     } else {
-  //       delete rule.headers;
-  //     }
-
-  //     if (!rule.body.length) {
-  //       delete rule.body;
-  //     }
-
-  //     if (!rule.path.length) {
-  //       delete rule.path;
-  //     }
-
-  //     if (!rule.search.length) {
-  //       delete rule.search;
-  //     }
-
-  //     rule.expression = `${rule.expression}\n`;
-  //   }
-
-  //   let rulesObj = {};
-  //   data.rules.forEach((rule, index) => {
-  //     rulesObj[`r${index}`] = rule;
-  //   });
-
-  //   const poc = yaml.safeDump({
-  //     name: this.state.name,
-  //     transport: this.state.transport,
-  //     rules: rulesObj,
-  //     expression: Object.values(rulesObj).reduce((acc, rule) => {
-  //       return `${acc} && ${rule.expression.trim()}`;
-  //     }, ""),
-  //   });
-
-  //   this.setState({ poc });
-  // }
   generatePOC() {
     let data = {
       name: this.state.name,
@@ -236,7 +141,7 @@ export default class App extends React.Component {
       expression: buildExpression(ruleCount),
     });
 
-    this.setState({ poc });
+    this.setState({ poc, isEditable: true });
   }
 
 
@@ -292,30 +197,6 @@ export default class App extends React.Component {
                 )}
               </Form>
             </Col>
-            {/* <Col span={12} style={{paddingTop: "4px"}} >
-              <Affix offsetTop={8}>
-                <Input.TextArea
-                  autosize={{minRows: 20}}
-                  placeholder="生成POC内容"
-                  value={this.state.poc}
-                  id="poc-detail"
-                  readOnly={true}
-                  style={{marginBottom: "15px"}}
-                />
-                <Row justify="end" type="flex">
-                  <Button type="primary" size="default" onClick={this.generatePOC} className="br">生成</Button>
-                  <Button
-                    type="dashed"
-                    icon="copy"
-                    id="copy-btn"
-                    data-clipboard-text={this.state.poc}
-                  >
-                    复制POC
-                  </Button>
-                </Row>
-              </Affix>
-            </Col> */}
-            
               <Col span={12} style={{ paddingTop: "4px" }}>
                 <Affix offsetTop={8}>
                   <div style={{ display: "flex", flexDirection: "column" }}>
@@ -351,7 +232,6 @@ export default class App extends React.Component {
                         :this.state.selectedPOC === 'poc5' ? 'poc5的内容'
                         :this.state.selectedPOC === 'poc6' ? 'poc6的内容':
                         ''
-
                       }
                         readOnly={true}
                       />
@@ -362,7 +242,9 @@ export default class App extends React.Component {
                         placeholder="生成POC内容"
                         value={this.state.poc}
                         id="poc-detail"
-                        readOnly={false}
+                        readOnly={!this.state.isEditable}
+                        //将生成的内容可以进行编辑
+                        onChange={(e) => this.setState({ poc: e.target.value })}
                       />
                     </div>
                     <Row justify="end" type="flex">
