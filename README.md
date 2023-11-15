@@ -1,6 +1,5 @@
 # Welcome to Comal
 
-> Huaun poc 测试工具
 
 # 快速使用
 
@@ -83,19 +82,18 @@ X-Powered-By: PHP/7.3.4
 ## 提交流程
 
 1. 登录https://vti.huaun.com/index/   进行账号注册
-2. 在 https://vti.huaun.com/sumbitVul 处进行poc提交，更详细的poc编写指南，请参考https://vti.huaun.com/html/poc%20%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97%20v1.0.pdf
+2. 在 https://vti.huaun.com/sumbitVul 处进行poc提交，更详细的poc编写指南，请参考https://i8bbmkcybg.feishu.cn/docx/ZSTddSENioK8Z4xhbvNchAq0nDb
 3. 编写过程中，您可以下载相关的burp插件来辅助您进行编写，下载地址为：https://vti.huaun.com/html/comalExt.jar  （目前只支持burpsuit 2023 版本以上的，如果遇到burp插件加载错误，请尝试更换为burp2023版本，否则会遇到API 相关的报错）
-4. 相关提交要求，请参考【漏洞提交页面】的【提交要求】
+4. 可以使用Comal poc 辅助编写工具来帮助您进行poc的编写 https://vulai-huaun.github.io/
 5. 详细PoC的定价标准，请参考：https://i8bbmkcybg.feishu.cn/docx/PP64deK2rowtluxyTLqcCGiDnuc?from=from_copylink
 6. 请您提交的时候，准备好相关docker文件或者软件压缩包，并提供好相关运行成功的截图，这将影响到您最终的漏洞奖金。
 7. 【重要】目前 Nday只收集【漏洞信息】中发布的漏洞， https://vti.huaun.com/Vulinfo 。其余提交均会驳回，请提交的时候注意。 未公开细节的 1day 和 0day 不限于此规则。 
-8. 您可以使用poc辅助编写工具
 
 ## 奖励
 
 本平台实行积分兑换制，1漏洞积分 = 价值 10rmb 的京东卡
 
-面值为50 与 100。提交兑换申请之后，本月15日之前的，15日发放，15日之后的，次月15日发放。其他问题请联系相关人员。
+统一发放时间为每月20日，其他问题请联系相关人员。
 
 ## 交流
 
