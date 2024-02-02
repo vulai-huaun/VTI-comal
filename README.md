@@ -101,8 +101,6 @@ Comal 非常感谢各位师傅的支持，关于工具的bug、PoC赏金的换�
 
 ![](https://cdn.jsdelivr.net/gh/h0ld1rs/image/image202310211331587.png)
 
-![](https://cdn.jsdelivr.net/gh/h0ld1rs/image/image202310211332701.png)
-
 客服的个人微信：
+![](https://cdn.jsdelivr.net/gh/h0ld1rs/image/image202402021043737.png)
 
-![](https://cdn.jsdelivr.net/gh/h0ld1rs/image/image202310211334219.jpg)
