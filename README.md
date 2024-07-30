@@ -97,10 +97,7 @@ X-Powered-By: PHP/7.3.4
 
 ## 交流
 
-Comal 非常感谢各位师傅的支持，关于工具的bug、PoC赏金的换算比例、PoC的审核进度等问题，欢迎各位师傅一起加群交流讨论，如进群二维码失效，请各位师傅添加客服微信。
+Comal 非常感谢各位师傅的支持，关于工具的bug、PoC赏金的换算比例、PoC的审核进度等问题，欢迎各位师傅一起加群交流讨论，如进群二维码失效。
 
 ![](https://cdn.jsdelivr.net/gh/h0ld1rs/image/image202310211331587.png)
-
-客服的个人微信：
-![](https://cdn.jsdelivr.net/gh/h0ld1rs/image/image202402021043737.png)
 
